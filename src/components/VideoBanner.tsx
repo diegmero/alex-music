@@ -60,7 +60,7 @@ const VideoBanner: React.FC = () => {
       {/* Content Container */}
       <div className="relative z-10 h-full flex flex-col">
         {/* Navigation */}
-        <nav className="container mx-auto flex justify-between items-center mt-1">
+        <nav className="container mx-auto flex justify-between items-center mt-1 hidden">
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
