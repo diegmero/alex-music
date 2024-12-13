@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Alex Garzon's Music",
+  title: "Alex Garzon Music",
   description: "Desarrollado por Diego Romero",
 };
 

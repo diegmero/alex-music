@@ -21,8 +21,8 @@ interface AudioWaveFormProps {
     current: Song | null;  
 }
 
-const AudioWaveform: React.FC<AudioWaveFormProps> = ({ isPlaying, current }) => {
-    const numberOfBars = 300;
+const AudioWaveform: React.FC<AudioWaveFormProps> = () => {
+  const numberOfBars = 300;
   const minHeight = 5;
   const maxHeight = 30;
 

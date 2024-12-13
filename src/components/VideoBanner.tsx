@@ -1,7 +1,7 @@
 "use client";
 import React, { useRef, useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
-import { Play, Headphones, Mail } from 'lucide-react';
+import { Headphones, Mail } from 'lucide-react';
 
 const VideoBanner: React.FC = () => {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -27,7 +27,7 @@ const VideoBanner: React.FC = () => {
   };
 
 
-  const pulseAnimation = {
+  /*const pulseAnimation = {
     scale: [1, 1.05, 1],
     boxShadow: [
       "0 0 0 0 rgba(255, 255, 255, 0.7)",
@@ -39,7 +39,7 @@ const VideoBanner: React.FC = () => {
       repeat: Infinity,
       ease: "easeInOut"
     }
-  };
+  };*/
 
   return (
     <div className="relative h-screen w-full overflow-hidden">
