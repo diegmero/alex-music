@@ -63,7 +63,7 @@ const UpcomingEvents: React.FC = () => {
     <section className="py-16 bg-gradient-to-br from-gray-950 to-gray-950 pt-[100px]">
       <div className="container mx-auto px-4">
         <motion.h2
-          className="text-6xl font-extrabold mb-12 text-center bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 to-orange-500"
+          className="text-5xl font-extrabold mb-16 pt-8 text-center bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 to-orange-500"
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.2 }}
