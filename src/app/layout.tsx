@@ -32,7 +32,7 @@ export default function RootLayout({
         </main>
         <footer className="bg-gray-900 text-white py-4 text-center">
           <p className="text-sm">
-            &copy; {new Date().getFullYear()} Alex Garzon's Music. Todos los derechos reservados.
+            &copy; {new Date().getFullYear()} Alex Garzon Music. Todos los derechos reservados.
           </p>
           <p className="text-xs mt-1 text-gray-400">
             Desarrollado por: Diego Alejandro Romero
