@@ -74,7 +74,7 @@ const MusicPlayer: React.FC<{ songs: Song[] }> = ({ songs }) => {
                   <img
                     src={song.coverArt}
                     alt={song.title}
-                    className="w-full h-56 object-cover rounded-t-xl"
+                    className="w-full h-56 object-cover rounded-t-xl text-white"
                   />
                   <motion.div
                     className="absolute top-0 left-0 right-0 bottom-0 bg-black bg-opacity-50 flex justify-center items-center opacity-0 hover:opacity-100 transition-opacity duration-300"
@@ -98,7 +98,7 @@ const MusicPlayer: React.FC<{ songs: Song[] }> = ({ songs }) => {
                 <div className="p-4">
                   <div className="flex justify-between">
                     <div>
-                      <h3 className="text-lg font-semibold truncate">{song.title}</h3>
+                      <h3 className="text-lg font-semibold truncate text-white">{song.title}</h3>
                       <p className="text-sm text-gray-300 truncate">
                         {song.artist || "Alex Garzon"}
                       </p>

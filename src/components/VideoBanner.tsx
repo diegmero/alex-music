@@ -51,7 +51,7 @@ const VideoBanner: React.FC = () => {
         loop
         muted
         playsInline
-        className="absolute top-0 left-0 w-full h-full object-cover opacity-60 filter brightness-50"
+        className="absolute top-0 left-0 w-full h-full object-cover opacity-90 filter brightness-50"
       />
 
       {/* Gradient Overlay */}
